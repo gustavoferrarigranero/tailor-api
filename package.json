@@ -1,0 +1,20 @@
+{
+  "name": "tailor-db",
+  "version": "1.0.0",
+  "description": "BackEnd for Tailor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "nodemon server.js",
+    "mongo": "mongod --journal --storageEngine=mmapv1"
+  },
+  "author": "Gustavo Ferrari",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.1"
+  }
+}
